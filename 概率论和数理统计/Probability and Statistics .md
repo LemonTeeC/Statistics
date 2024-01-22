@@ -27,7 +27,7 @@ B(a,b)&=\int^1_0x^{a-1}(1-x)^{b-1}dx=\frac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}
 
 $$
 
-[Chapter 3.3](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%203%203%20543122032c2d4307a764572905121915.md)
+[Chapter 3.3]
 
 - Introduce how to find joint distribution and pdf of random vectors
 
@@ -36,7 +36,7 @@ $$
 > Remember that the integration area of marginal pdf is restricted.
 > 
 
-[Chapter 3.4](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%203%204%208bc4dde289184b5bbbf750f5386b442a.md)
+[Chapter 3.4]
 
 - Introduce covariance, correlation and their operations of n-dimensional random variables.
 
@@ -45,7 +45,7 @@ $$
 > Given 2 variables X and Y, and we need to find E(XY),  always find the density function or pmf of (X,Y) first. Then use the definition of expectation to find the answer.
 > 
 
-[Chapter 3.5](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%203%205%204472a39f10a8498f8ba35095657460d7.md)
+[Chapter 3.5]
 
 - Introduce conditional distribution and expectation
 
@@ -57,7 +57,7 @@ $$
 > Note that p(x|y) = p(x) if X and Y are independent random variables. which is easy to prove since we have $p(x|y)=\frac{p(x,y)}{p(y)} = \frac{p(x)p(y)}{p(y)}$
 > 
 
-[Chapter 4.1](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%204%201%209e698361ff6844e8a3fab8d6be2a8db9.md)
+[Chapter 4.1]
 
 - Introduce convergence to probability and convergence to distribution
 
@@ -66,7 +66,7 @@ $$
 > Very hard, the proof is fucking difficult
 > 
 
-[Chapter 4.2](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%204%202%207c71a814bc0847d0bd9a05fce36d2b51.md)
+[Chapter 4.2]
 
 - Introduce characteristic function of random variables
 
@@ -75,8 +75,7 @@ $$
 > we can use the limit of characteristic function to prove that a distribution converges to another distribution
 > 
 
-[Chapter 4.3](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%204%203%20e0f1d7a5c9354a7dbe7651b4dc1db6a3.md)
-
+[Chapter 4.3]
 - Introduce law of large numbers and different theorem to determine whether {Xn} obeys the law
 
 ---
@@ -92,7 +91,7 @@ o(x-x_0)^n \ \ or\\
 
 $$
 
-[Chapter 5.3](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%205%203%209919de6328204cd2b5d2a19c93652526.md)
+[Chapter 5.3]
 
 - 这一章的内容困扰了我很久，主要是我最开始直接跳了5.1和5.2，搞得没能理解清楚**总体，个体，样本，**后面搞得也看不懂什么事次序统计量. 经过回头复习，终于搞明白了
 
@@ -113,16 +112,14 @@ $$
 
 ---
 
-[Chapter 5.4](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%205%204%204a9137b53fe34832b2a792690624e4cf.md)
+[Chapter 5.4]
+
+[Chapter 6.1]
 
 ---
 
-[Chapter 6.1](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%206%201%20dbd84bdb78014332b7b280e09c310794.md)
+[Chapter 7.5]
 
 ---
 
-[Chapter 7.5](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%207%205%20da8ad78c972c41c48c955b5fc4084775.md)
-
----
-
-[Chapter 8.4](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%208%204%201c65a58613a24d0baac6f17ecfc6f44b.md)
+[Chapter 8.4]
