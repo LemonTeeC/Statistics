@@ -16,12 +16,15 @@
 | $\chi^ 2(n)$ | $\frac{x^{n/2-1}e^{-x/2}}{\Gamma(n/2)2^{n/2}}$, $[0,\infty)$ | n | 2n | $(1/(1-2t))^{n/2}$ | 即$\alpha=n/2, \lambda=1/2$的Ga分布,独立可加 |
 | $N(\mu, \sigma^2)$ | $\frac{1}{\sqrt{2 \pi}\sigma }e^{\frac{-(x-\mu)^2}{2\sigma^2}}$ | $\mu$ | $\sigma^2$ | $e^{\mu t+\sigma^2t^2/2}$ | 可加：$aX_1+bX_2 \sim N(\mu_1+\mu_2, a\sigma^2_1+b\sigma^2_2)$; $X \sim N(0,1),X^2 \sim \chi^2(1)$ |
 
+
 $$
 \begin{split}
+
 \Gamma(\alpha)=\int^{\infty}_0x^{\alpha-1}e^{-x}dx, \ \Gamma(\frac{1}{2})&=\sqrt{\pi}, \ \Gamma(n+1)=n\Gamma(n)=n!\\
 
 B(a,b)&=\int^1_0x^{a-1}(1-x)^{b-1}dx=\frac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}
 \end{split}
+
 $$
 
 [Chapter 3.3](Probability%20and%20Statistics%2017fce9bf27174c53be10f62cfd70e598/Chapter%203%203%20543122032c2d4307a764572905121915.md)
