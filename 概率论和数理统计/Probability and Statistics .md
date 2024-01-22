@@ -11,7 +11,7 @@
 | Nb(r,p) | $\binom{k-1}{r-1}(1-p)^{k-r}p^r$ | $\frac{r}{p}$ | $\frac{r(1-p)}{p^2}$ | $[pe^t/(1-(1-p)e^t)]^r$ | 给定成功次数求总次数/ 失败次数 |
 | U(a,b) | $\frac{1}{b-a}$ | $\frac{a+b}{2}$ | $\frac{(b-a)^2}{12}$ | $(e^{tb}-e^{ta})/t(b-a)$ | 由于 $Y=F_X(X)\sim U(0,1)$, U是universal的 |
 | $Exp(\lambda)$ | $\lambda e^{-\lambda x}, [0,\infty)$ | $\frac{1}{\lambda }$ | $\frac{1}{\lambda^2}$ | $\lambda/(\lambda-t)$ | 独立可加：因为 
- $Exp(\lambda)=Ga(1,\lambda)$, 所以 $X_1+...+X_n\sim Ga(n,\lambda)$ |
+ $Exp(\lambda)=Ga(1,\lambda)$, 所以 $X_1+...+X_n\sim Ga(n,\lambda)$ | $1/ \lambda$ | $1/ \lambda^2
 | $Ga(\alpha,\lambda)$ | $\frac{\lambda^\alpha}{\Gamma(\alpha)}x^{\alpha -1}e^{-\lambda x}, [0,\infty)$ | $\frac{\alpha}{\lambda }$ | $\frac{\alpha}{\lambda^2}$ | $(\lambda/(\lambda-t))^\alpha$ | 独立可加： $Ga(\alpha_1+\alpha_2,\lambda)$ |
 | $Be(a,b)$  | $\frac{\Gamma(a+b)}{\Gamma(a)\Gamma(b)}x^{\alpha -1}(1-x)^{b-1},(0,1)$ | $\frac{a}{a+b}$ | $\frac{ab}{(a+b)^2(a+b+1)}$ |  | when p(x)= $ax^{a-1},X\sim Be(2,1)$ |
 | $\chi^ 2(n)$ | $\frac{x^{n/2-1}e^{-x/2}}{\Gamma(n/2)2^{n/2}}$, $[0,\infty)$ | n | 2n | $(1/(1-2t))^{n/2}$ | 即 $\alpha=n/2, \lambda=1/2$的Ga分布,独立可加 |
